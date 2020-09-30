@@ -48,11 +48,11 @@ exports.decorateConfig = (config) => {
                 justify-content: space-between;
                 position: absolute;
                 bottom: 0;
-                left: 0;
+                left: 400px;
                 right: 0;
                 z-index: 100;
                 font-size: 12px;
-                height: 30px;
+                height: 22px;
                 background-color: ${colors.background};
                 opacity: ${hyperStatusLine.footerTransparent ? '0.5' : '1'};
                 cursor: default;
